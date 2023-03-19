@@ -11,9 +11,13 @@ public class Main {
         String theOldestPersonInAddressBook = addressBookService.whoIsTheOldestPersonInTheAddressBook();
         long daysBillOlderThanPaul = addressBookService.howManyDaysOlderIsBillThanPaul();
 
+        System.out.println();
+        System.out.println("===================================================");
         System.out.println(String.format("There are %d males in the AddressBook", malesCount));
         System.out.println(String.format("%s is the oldest person in the AddressBook", theOldestPersonInAddressBook));
         System.out.println(String.format("Bill is older than Paul by %d days", daysBillOlderThanPaul));
+        System.out.println("===================================================");
+        System.out.println();
     }
 
 }
